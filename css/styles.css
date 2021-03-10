@@ -1,0 +1,85 @@
+/* primary text color #757575; */
+/* secondary text color #212121 */
+/* accent text color #2196F3 */
+/* white color #FFFFFF */
+
+/* Main styles */
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-text: #2196f3;
+  --white-color: #ffffff;
+}
+body {
+  background-color: var(--white-color);
+  color: var(--primary-text-color);
+  font-family: Roboto;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+/* Logo styles */
+.logo-header {
+  color: #000000;
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+}
+.logo-blue {
+  color: var(--accent-text);
+}
+
+/* Styles for links in header */
+.site-nav .link {
+  color: var(--secondary-text-color);
+}
+.site-nav .current {
+  color: var(--accent-text);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.nav-contacts .link:hover,
+.nav-contacts .link:focus {
+  color: var(--accent-text);
+}
+.nav-contacts .link {
+  color: inherit;
+}
+/* Hero */
+.hero-title {
+  color: var(--white-color);
+  background: #2f303a;
+}
+.button {
+  color: var(--white-color);
+  background: var(--accent-text);
+}
+/* Sections */
+.section-title,
+h3 {
+  color: var(--secondary-text-color);
+}
+/* Styles for links in footer */
+.footer,
+.footer a {
+  color: var(--white-color);
+  background: #2f303a;
+}
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: var(--accent-text);
+}
